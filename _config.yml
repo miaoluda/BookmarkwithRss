@@ -1,1 +1,6 @@
 theme: jekyll-theme-minimal
+plugins:
+  - jekyll-feed
+title: Test Rss
+description: Testing RSS now...
+author: 中文测试
