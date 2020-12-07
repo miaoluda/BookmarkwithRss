@@ -1,17 +1,22 @@
-<?xml version="1.0" encoding="UTF-8"?>  
-<rss version="2.0">  
-  <channel>  
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+	<channel>
     <title>Test RSS</title>  
     <link>miaoluda.github.io</link>  
     <description>Test RSS</description>  
-    <language>en-us</language>  
-    <item>  
+		<language>zh-cn</language>
+
+		<category /><!-- 一条新闻 -->
+		<item>
       <title>Test Link</title>  
-      <description>试一下</description>  
-      <author>null</author>  
-      <pubDate>Tue, 27 Aug 2020 20:37:47 +0800</pubDate>  
       <link>https://www.washingtonpost.com/news/the-intersect/wp/2015/12/02/wikipedia-has-a-ton-of-money-so-why-is-it-begging-you-to-donate-yours/</link>  
-      <guid>https://www.washingtonpost.com/news/the-intersect/wp/2015/12/02/wikipedia-has-a-ton-of-money-so-why-is-it-begging-you-to-donate-yours/</guid>  
-    </item>  
-  <channel>  
-</rss>  
+      <author>null</author>  
+			<!-- guid>GUID=Globally Unique Identifier 为当前新闻指定一个全球唯一标示 -->
+			<guid>https://www.washingtonpost.com/news/the-intersect/wp/2015/12/02/wikipedia-has-a-ton-of-money-so-why-is-it-begging-you-to-donate-yours/</guid>
+			<category>Null</category>
+			<pubdate>Wed, 26 Apr 2020 00:02:53 GMT</pubdate>
+			<comments/>
+      <description>试一下</description>  
+		</item>
+	</channel>
+</rss>
